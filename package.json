@@ -1,0 +1,35 @@
+{
+  "name": "exercicios-express-post",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:p1": "tsx watch projeto-1-mensagem/src/app.ts",
+    "dev:p2": "tsx watch projeto-2-soma/src/app.ts",
+    "dev:p3": "tsx watch projeto-3-login/src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrooSoeiro/exercicios-express-post.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/pedrooSoeiro/exercicios-express-post/issues"
+  },
+  "homepage": "https://github.com/pedrooSoeiro/exercicios-express-post#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.10",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
